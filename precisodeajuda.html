@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Helper19 - Compartilhando ajuda em tempos de Crise!</title>
+  <link rel="icon" href="./imghome/Care.png" sizes="32x32">
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="cssmaterialize/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="cssmaterialize/styledefault.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-161720643-1');
+  </script>
+  <script src="//code.jivosite.com/widget/jecSrmUREq" async></script>
+</head>
+
+<body>
+
+  <nav class="blue darken-3">
+    <div class="nav-wrapper container">
+      <a href="/" class="brand-logo left-align" style="padding-top: 1%;"><img src="./imghome/Care.png"
+          alt="logo helper19" height="auto" width="55vh"></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="precisodeajuda.html">Preciso de Ajuda</a></li>
+        <li><a href="queroajudar.html">Quero Ajudar</a></li>
+        <li><a href="empresadelivery.html">Para Empresas</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="precisodeajuda.html">Preciso de Ajuda</a></li>
+    <li><a href="quereajudar.html">Quero Ajudar</a></li>
+    <li><a href="empresadelivery.html">Para Empresas</a></li>
+    <li><a href="ajudantes.php">Todos Ajudantes</a></li>
+    <li><a href="quereajudar.html">Pessoas Para Ajudar</a></li>
+    <li><a href="empresas.php">Todas Empresas</a></li>
+    <li><a href="empresas.php">Delivery</a></li>
+  </ul>
+
+  <div class="container" id="cadastrarempresaform">
+    <div class="text-center">
+      <h4 style="margin-top: 3rem;margin-bottom: 2rem;">Precisa de Ajuda?<br> Cadastre-se e encontre pessoas que querem ajudar!</h4>
+  </div>
+    <div class="row">
+      <form class="col s12 md8  formulariogeral" id="precisoajuda">
+        <div class="row">
+          <div class="input-field col s12 m6 ">
+            <input placeholder="Digite Seu Nome" id="nome" name="nome" type="text" class="validate">
+            <label for="nome">Nome</label>
+          </div>
+          <div class="input-field col s12 m3  ">
+            <input id="whatsapp" name="whatsapp" type="text" class="validate">
+            <label for="whatsapp">WhatsApp</label>
+          </div>
+          <div class="input-field col s12 m3">
+            <input id="idade" name="idade" type="number" class="validate">
+            <label for="idade">Idade</label>
+          </div>
+          <div class="input-field col s12 m6">
+            <select id="estado" class="form-control" name="UF">
+              <option value="" disabled selected>Selecione seu estado</option>
+              <option value="1">Acre (AC)</option>
+              <option value="2">Alagoas (AL)</option>
+              <option value="3">Amapá (AP)</option>
+              <option value="4">Amazonas (AM)</option>
+              <option value="5">Bahia (BA)</option>
+              <option value="6">Ceará (CE)</option>
+              <option value="7">Distrito Federal (DF)</option>
+              <option value="8">Espírito Santo (ES)</option>
+              <option value="9">Goiás (GO)</option>
+              <option value="10">Maranhão (MA)</option>
+              <option value="11">Mato Grosso (MT)</option>
+              <option value="12">Mato Grosso do Sul (MS)</option>
+              <option value="13">Minas Gerais (MG)</option>
+              <option value="14">Pará (PA)</option>
+              <option value="15">Paraíba (PB)</option>
+              <option value="16">Paraná (PR)</option>
+              <option value="17">Pernambuco (PE)</option>
+              <option value="18">Piauí (PI)</option>
+              <option value="19">Rio de Janeiro (RJ)</option>
+              <option value="20">Rio Grande do Norte (RN)</option>
+              <option value="21">Rio Grande do Sul (RS)</option>
+              <option value="22">Rondônia (RO)</option>
+              <option value="23">Roraima (RR)</option>
+              <option value="24">Santa Catarina (SC)</option>
+              <option value="25">São Paulo (SP)</option>
+              <option value="27">Sergipe (SE)</option>
+              <option value="28">Tocantins (TO)</option>
+
+            </select>
+            <label>selecione seu estado</label>
+          </div>
+          <div class="input-field col s12 m6">
+            <input id="cidade" name="cidade" type="text" class="validate">
+            <label for="cidade">Cidade</label>
+          </div>
+          <div class="input-field col s12" hidden>
+            <input id="longitude" name="longitude" type="text" class="validate">
+            <label for="longitude">Longitude</label>
+          </div>
+          <div class="input-field col s12" hidden>
+            <input id="Latitude" name="Latitude" type="text" class="validate">
+            <label for="Latitude">Latitude</label>
+          </div>
+          <div id="menssagem" style="display: none;"></div>
+        </div>
+        <button class="waves-effect waves-light btn" type="submit">Cadastrar</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="page-footer  light-blue darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12 center">
+          <img src="./imghome/Care.png" alt="Logo Helper19" height="auto" width="150vh">
+          <p class="grey-text text-lighten-4">Usando a tecnologia para ajudar pessoas em tempos dificeis. Helper19 seu
+            ajudante virtual!</p>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Pessoas</h5>
+          <ul>
+            <li><a class="white-text" href="queroajudar.html">Quero Ajudar</a></li>
+            <li><a class="white-text" href="ajudantes.php">Pessoas ajudando</a></li>
+            <li><a class="white-text" href="precisodeajuda.html">Precisa de Ajuda?</a></li>
+            <li><a class="white-text" href="queroajuda.php">Pessoas para Ajudar</a></li>
+
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Empresa</h5>
+          <ul>
+            <li><a class="white-text" href="empresadelivery.html">Divulgar meu Comercio</a></li>
+            <li><a class="white-text" href="empresadelivery.html">Divulgar Minha Empresa</a></li>
+            <li><a class="white-text" href="empresas.php">Veja as empresas</a></li>
+            <li><a class="white-text" href="mailto:contato@helper19.com">Como Ajudar o Helper19</a></li>
+            <li><a class="white-text" href="mailto:parceria@helper19.com">Parceria com Helper19</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Desenvolvido por <a class="orange-text text-lighten-3" href="https://herlper19.com.br">Helper19</a>
+      </div>
+    </div>
+  </footer>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/ajaxconfig.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+  <script src="ajax/ajaxprecisoajuda.js"></script>
+  <script type="text/javascript" src="jsmaterialize/materialize.js"></script>
+  <script src="jsmaterialize/init.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('select').formSelect();
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+[22-Mar-2020 01:26:26] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/uniadm67/covid19.123pagou.com.br/backend/conecta.php on line 4
+[22-Mar-2020 01:26:26] PHP Warning:  mysqli_query() [<a href='function.mysqli-query'>function.mysqli-query</a>]: Couldn't fetch mysqli in /home2/uniadm67/covid19.123pagou.com.br/backend/precisoajudaform.php on line 21
+[22-Mar-2020 01:27:09] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/uniadm67/covid19.123pagou.com.br/backend/conecta.php on line 4
+[22-Mar-2020 01:27:09] PHP Warning:  mysqli_query() [<a href='function.mysqli-query'>function.mysqli-query</a>]: Couldn't fetch mysqli in /home2/uniadm67/covid19.123pagou.com.br/backend/precisoajudaform.php on line 21
