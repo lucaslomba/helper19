@@ -1,6 +1,29 @@
-# helper19
+# 🦠 Helper19
 
-#esse sistema foi desenvolvido durantea a pandemia do corona Virus(COVID-19)
+this system was developed during the coronavirus (COVID-19) pandemic.
+## 🚀 Techs
 
-#A ideia desse sistema é ajudar os pequenos comercios e as pessoas que precisam de ajuda
-durante essa crise, a encontrar alguem que possa lhe ajudar!
+HTML, CSS, JavaScript, PHP
+
+
+## 🛠️ Running
+
+📥 Clone the repository:
+
+```bash
+  git clone https://github.com/lucaslomba/helper19.git
+```
+
+📂 Navigate to the project directory:
+
+```bash
+  cd helper19
+```
+
+▶️ Open the index.html file
+
+## Authors
+
+- [@lucaslomba](https://github.com/lucaslomba)
+- [@fmomoreira](https://github.com/fmomoreira)
+
